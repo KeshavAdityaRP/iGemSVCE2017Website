@@ -1,0 +1,213 @@
+body {
+    position: relative; 
+    font-family: "Lato", sans-serif;
+    width: 100%;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.console-container {
+  font-family: "Lato", sans-serif;
+  font-size: 4em;
+  text-align: center;
+  display: block;
+  color: #FFFFFF;
+}
+
+.console-underscore {
+  display: inline-block;
+  position: relative;
+  top: -0.14em;
+  left: 10px;
+  color: #FFFFFF;
+}
+
+.jumbotron {
+  width: 100%;
+	height: 100vh;
+	background-image: url('../images/sample.gif');
+	background-color: #f6f5e6;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 60%;
+}
+
+.container {
+	padding: 2%;
+}
+
+.row{
+  padding: 1%;
+  margin: 1%;
+}
+
+.highlight{
+	background-color: #000000;
+	opacity: 0.7;
+  width: 35%;
+  padding: 3%;	
+  height: 300px;
+}
+
+.highlight h1{
+	color: #FFFFFF;
+}
+
+.highlight p{
+	color: #FFFFFF;
+}
+
+.centered {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.text-center {
+  text-align: center!important;
+}
+
+#heading{
+
+}
+
+.subheading{
+
+}
+
+.paragraphs{
+  text-align: justify;
+  line-height: 2em;
+  padding: 2%;
+  font-size: large;
+}
+
+.mainPoint{
+  color: green;
+}
+
+.points{
+  line-height: 2em;
+  padding: 2%;
+  font-size: large; 
+}
+
+.circuitDiagrams{
+
+}
+
+.flowchartDiagram{
+
+}
+
+.memories{
+  width: 50%;
+}
+
+.subheading{
+  margin: 4%; 
+}
+
+.sectionSpacing{
+  padding: 1%;
+}
+
+.sponsorLogos{
+  width: 50%;
+}
+
+
+
+/*#change{
+    transition: opacity 0.5s linear;
+}*/
+
+/*
+Team Member - Bitmoji/Photo + Bubble 
+*/
+.box {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.box:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  width : 100%;
+  white-space: nowrap; 
+  padding: 0px;
+  color: white;
+  font-size: 70px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+.speech-bubble {
+  position: relative;
+  background: #00aabb;
+  border-radius: .4em;
+  width: 100%;
+  height: 100px;
+  padding: 4%;
+}
+
+.bubbleLeft :after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 16px solid transparent;
+  border-right-color: #00aabb;
+  border-left: 0;
+  margin-top: -16px;
+  margin-left: -16px;
+}
+
+.bubbleRight:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 16px solid transparent;
+  border-left-color: #00aabb;
+  border-right: 0;
+  margin-top: -16px;
+  margin-right: -16px;
+}
