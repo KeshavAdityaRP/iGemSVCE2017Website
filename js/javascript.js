@@ -5,8 +5,8 @@ consoleText(
 	], 
 	'text',
 	[
-	'tomato',
-	'rebeccapurple'
+	'#22B2E7',
+	' #16627C'
 	]
 	);
 
