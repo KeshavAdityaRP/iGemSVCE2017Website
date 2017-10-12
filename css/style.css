@@ -1,8 +1,44 @@
+/* HTML TAGS */
+
 body {
     position: relative; 
     font-family: "Lato", sans-serif;
-    width: 100%;
+    width: 100%;    
 }
+
+a{
+  color: blue;
+  text-decoration: none;  
+}
+
+a:hover {
+  color: green;
+  text-decoration: none;  
+}
+
+/* Navigation Bar */
+
+.navbar-inverse{
+  background-color: #000000;
+}
+
+.navbar-inverse .navbar-brand{
+  color: #9d9d9d;
+}
+
+.navbar-inverse .navbar-brand :hover {
+  color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #9d9d9d;
+}
+
+.navbar-nav > li > .dropdown-menu {
+  background-color: #FFFFFF;
+}
+
+/* Transcription - Translation Style */
 
 .hidden {
   opacity: 0;
@@ -24,6 +60,8 @@ body {
   color: #FFFFFF;
 }
 
+/* Key Bootstrap Modifications */
+
 .jumbotron {
   width: 100%;
 	height: 100vh;
@@ -43,6 +81,8 @@ body {
   padding: 1%;
   margin: 1%;
 }
+
+/* Text on the Landing Image within */
 
 .highlight{
 	background-color: #000000;
@@ -71,16 +111,23 @@ body {
   -ms-transform: translate(-50%, -50%);
 }
 
-.text-center {
-  text-align: center!important;
+/* General - Images, Paragraphs, Headings, Subheadings */
+
+#sponsors{
+  background-color: #FFFFFF;
 }
 
 #heading{
-
+  color: #00B8D4;
 }
 
 .subheading{
+  color: #00B8D4;
+  margin: 4%; 
+}
 
+.memberNames{
+  color: #2196F3;
 }
 
 .paragraphs{
@@ -100,6 +147,26 @@ body {
   font-size: large; 
 }
 
+.text-center {
+  text-align: center!important;
+}
+
+.sectionSpacing{
+  padding: 1%;
+}
+
+.marginBottom{
+  margin-bottom: 5%;
+}
+
+.sponsorLogos{
+  width: 50%;
+}
+
+.memories{
+  width: 50%;
+}
+
 .circuitDiagrams{
 
 }
@@ -108,31 +175,17 @@ body {
 
 }
 
-.memories{
-  width: 50%;
-}
-
-.subheading{
-  margin: 4%; 
-}
-
-.sectionSpacing{
-  padding: 1%;
-}
-
-.sponsorLogos{
-  width: 50%;
-}
-
-
-
-/*#change{
-    transition: opacity 0.5s linear;
-}*/
 
 /*
-Team Member - Bitmoji/Photo + Bubble 
+
+#change{
+    transition: opacity 0.5s linear;
+}
+
 */
+
+/* Team Member - Bitmoji/Photo + Bubble */
+
 .box {
   position: relative;
   width: 100%;
@@ -174,17 +227,24 @@ Team Member - Bitmoji/Photo + Bubble
   -ms-transform: translate(-50%, -50%);
 }
 
+.talking{
+  font-family: "Lato", sans-serif;
+  color: #FFFFFF;
+  font-size: small;
+  text-overflow: hidden;
+  text-align: justify;  
+}
+
 
 .speech-bubble {
   position: relative;
   background: #00aabb;
   border-radius: .4em;
   width: 100%;
-  height: 100px;
   padding: 4%;
 }
 
-.bubbleLeft :after {
+.bubbleLeftRed :after {
   content: '';
   position: absolute;
   left: 0;
@@ -192,13 +252,14 @@ Team Member - Bitmoji/Photo + Bubble
   width: 0;
   height: 0;
   border: 16px solid transparent;
-  border-right-color: #00aabb;
+  border-right-color: red;
   border-left: 0;
-  margin-top: -16px;
+  border-top: 0;
+  margin-top: -8px;
   margin-left: -16px;
-}
+}  
 
-.bubbleRight:after {
+.bubbleRightRed :after {
   content: '';
   position: absolute;
   right: 0;
@@ -206,8 +267,47 @@ Team Member - Bitmoji/Photo + Bubble
   width: 0;
   height: 0;
   border: 16px solid transparent;
-  border-left-color: #00aabb;
+  border-left-color: red;
   border-right: 0;
-  margin-top: -16px;
+  border-top: 0;
+  margin-top: -8px;
   margin-right: -16px;
+}
+
+.bubbleLeftGreen :after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 16px solid transparent;
+  border-right-color: green;
+  border-left: 0;
+  border-top: 0;
+  margin-top: -8px;
+  margin-left: -16px;
+}  
+
+.bubbleRightGreen :after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 16px solid transparent;
+  border-left-color: green;
+  border-right: 0;
+  border-top: 0;
+  margin-top: -8px;
+  margin-right: -16px;
+}
+
+.redBubble {
+  background-color: red;
+}
+
+.greenBubble {
+  background-color: green;
 }
