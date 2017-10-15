@@ -95,6 +95,13 @@
     =====================================================================-->  
   
     <div class="container">
+
+        <!-- Go to the Top of the Page Button
+        =====================================================================--> 
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-circle-o-up fa-3x arrowHead" aria-hidden="true"></i></button>
+        <!-- End of Go to the Top of the Page Button
+        =====================================================================-->
+
         <!-- Page Heading
         =====================================================================-->         
         <section class="sectionSpacing" id="RNAphMeter">
@@ -103,6 +110,14 @@
                     <h1 id="heading">RNA PH METER</h1>    
                 </div>
             </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                        <a class="miniNav" href="#descriptionL">&nbsp;Description </a><i class="fa fa-circle miniNavSeperator" aria-hidden="true"></i>
+                        <a class="miniNav" href="#circuitL">&nbsp;Circuit </a><i class="fa fa-circle miniNavSeperator" aria-hidden="true"></i>
+                        <a class="miniNav" href="#flowchartL">&nbsp;Flowchart </a>                          
+                </div>
+            </div> 
+
         </section>        
         <!-- End of Page Heading
         =====================================================================-->
@@ -110,7 +125,7 @@
         <!-- Description About RNA pH Meter
         =====================================================================-->    
         <section class="sectionSpacing" id="description">
-            <div class="row blueNote">
+            <div id="descriptionL" class="row blueNote">
                 <div class="col-sm-12 col-md-12 col-lg-12 text-center">
                     <h2 class="subheading">Description</h2>    
                 </div>
@@ -129,7 +144,7 @@
         <!-- Circuit Diagram of RNA pH Meter
         =====================================================================-->    
         <section class="sectionSpacing" id="circuitDiagram">
-            <div class="row blueNote">
+            <div id="circuitL" class="row blueNote">
                 <div class="col-sm-12 col-md-12 col-lg-12 text-center">
                     <h2 class="subheading">Circuit Diagram</h2>    
                 </div>
@@ -146,7 +161,7 @@
         <!-- Flowchart for RNA pH Meter
         =====================================================================-->    
         <section class="sectionSpacing" id="flowchart">
-            <div class="row blueNote">
+            <div id="flowchartL" class="row blueNote">
                 <div class="col-sm-12 col-md-12 col-lg-12 text-center">
                     <h2 class="subheading">Flowchart</h2>    
                 </div>
@@ -252,6 +267,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrap-dropdownhover.min.js"></script>
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+    <script src="js/javascriptToTop.js"></script>
     <!-- End of Javascript
     =====================================================================--> 
 

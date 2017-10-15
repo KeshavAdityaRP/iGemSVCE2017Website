@@ -96,6 +96,13 @@
 
 
     <div class="container">
+
+        <!-- Go to the Top of the Page Button
+        =====================================================================--> 
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-circle-o-up fa-3x arrowHead" aria-hidden="true"></i></button>
+        <!-- End of Go to the Top of the Page Button
+        =====================================================================-->
+
         <!-- Page Heading
         =====================================================================-->         
         <section class="sectionSpacing" id="attributions">
@@ -104,6 +111,14 @@
                     <h1 id="heading">ATTRIBUTIONS</h1>    
                 </div>
             </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                        <a class="miniNav" href="#instructorsL">&nbsp;Investigators & Instructors </a><i class="fa fa-circle miniNavSeperator" aria-hidden="true"></i>
+                        <a class="miniNav" href="#teamL">&nbsp;Team Members </a><i class="fa fa-circle miniNavSeperator" aria-hidden="true"></i>
+                        <a class="miniNav" href="#externalL">&nbsp;External Energy of the Team </a>                          
+                </div>
+            </div>
+
         </section>        
         <!-- End of Page Heading
         =====================================================================-->
@@ -111,7 +126,7 @@
         <!-- Investigators and Instructors
         =====================================================================-->    
         <section class="sectionSpacing" id="investigators">
-            <div class="row blueNote">
+            <div id="instructorsL" class="row blueNote">
                 <div class="col-sm-12 col-md-12 col-lg-12 text-center">
                     <h2 class="subheading">Investigators and Instructors</h2>    
                 </div>
@@ -126,12 +141,14 @@
                 <div class="col-sm-12 col-md-4 col-lg-4 text-center">
                     <h3 class="memberNames">Prof. M. SIVANANDHAM</h3> 
                     <p class="paragraphs">
+                        <br>
                         He is a visiting Professor and is the Secondary principal investigator of our  team. He helped us with registration and fundraising. Being a veteran in the field of bio-technology, he aided us with his immense knowledge and experience.
                     </p>                      
                 </div>
                 <div class="col-sm-12 col-md-4 col-lg-4 text-center">
                     <h3 class="memberNames">Mr.HARIHARAN. J</h3> 
                     <p class="paragraphs">
+                        <br>
                         He is an Assistant professor and our team’s Instructor. He is a pro in genetics and  he assisted us in troubleshooting all our problems associated with wet lab experiments and had been a main reason behind optimizing all our cloning strategies.
                     </p>                      
                 </div>                                
@@ -143,7 +160,7 @@
         <!-- Team Members
         =====================================================================-->    
         <section class="sectionSpacing" id="teamMembers">
-            <div class="row blueNote">
+            <div id="teamL" class="row blueNote">
                 <div class="col-sm-12 col-md-12 col-lg-12 text-center">
                     <h2 class="subheading">Team Members</h2>    
                 </div>
@@ -243,7 +260,7 @@
         <!-- External Energy of the Team
         =====================================================================-->    
         <section class="sectionSpacing" id="externalEnergy">
-            <div class="row blueNote">
+            <div id="externalL" class="row blueNote">
                 <div class="col-sm-12 col-md-12 col-lg-12 text-center">
                     <h2 class="subheading">The External Energy of the Team</h2>    
                 </div>
@@ -364,6 +381,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrap-dropdownhover.min.js"></script>
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+    <script src="js/javascriptToTop.js"></script>
     <!-- End of Javascript
     =====================================================================--> 
 

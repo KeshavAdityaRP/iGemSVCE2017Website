@@ -95,6 +95,13 @@
     =====================================================================-->  
   
     <div class="container">
+
+        <!-- Go to the Top of the Page Button
+        =====================================================================--> 
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-circle-o-up fa-3x arrowHead" aria-hidden="true"></i></button>
+        <!-- End of Go to the Top of the Page Button
+        =====================================================================-->
+
         <!-- Page Heading
         =====================================================================-->         
         <section class="sectionSpacing" id="attributions">
@@ -103,6 +110,13 @@
                     <h1 id="heading">Insilico Analysis</h1>    
                 </div>
             </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                        <a class="miniNav" href="#descriptionL">&nbsp;Description </a><i class="fa fa-circle miniNavSeperator" aria-hidden="true"></i>
+                        <a class="miniNav" href="#optimizationL">&nbsp;Optimisation </a><i class="fa fa-circle miniNavSeperator" aria-hidden="true"></i>
+                        <a class="miniNav" href="#rnaL">&nbsp;RNA pH Meter </a>         
+                </div>
+            </div>             
         </section>        
         <!-- End of Page Heading
         =====================================================================-->
@@ -110,7 +124,7 @@
         <!-- Description About Insilico Analysis
         =====================================================================-->    
         <section class="sectionSpacing" id="description">
-            <div class="row blueNote">
+            <div id="descriptionL" class="row blueNote">
                 <div class="col-sm-12 col-md-12 col-lg-12 text-center">
                     <h2 class="subheading">Description</h2>    
                 </div>
@@ -129,7 +143,7 @@
         <!-- Optimization of the ROSE RNA thermometer for B.subtilis
         =====================================================================-->    
         <section class="sectionSpacing" id="optimization">
-            <div class="row blueNote">
+            <div id="optimizationL" class="row blueNote">
                 <div class="col-sm-12 col-md-12 col-lg-12 text-center">
                     <h2 class="subheading">Optimization of the ROSE RNA thermometer for B.subtilis</h2>    
                 </div>
@@ -142,10 +156,10 @@
                 </div>                               
             </div> 
             <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="col-sm-12 col-md-6 col-lg-6 text-center">
                     <img class="optimisationPicture" src="images/IronThrone.jpg">
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="col-sm-12 col-md-6 col-lg-6 text-center">
                     <img class="optimisationPicture" src="images/IronThrone.jpg">
                 </div>                
             </div>                                       
@@ -156,7 +170,7 @@
         <!-- RNA pHmeter
         =====================================================================-->    
         <section class="sectionSpacing" id="RNAthermometer">
-            <div class="row blueNote">
+            <div id="rnaL" class="row blueNote">
                 <div class="col-sm-12 col-md-12 col-lg-12 text-center">
                     <h2 class="subheading">RNA pHmeter</h2>    
                 </div>
@@ -169,10 +183,10 @@
                 </div>                               
             </div> 
             <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="col-sm-12 col-md-6 col-lg-6 text-center">
                     <img class="RNAPicture" src="images/IronThrone.jpg">
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="col-sm-12 col-md-6 col-lg-6 text-center">
                     <img class="RNAPicture" src="images/IronThrone.jpg">
                 </div>                
             </div>                                       
@@ -270,6 +284,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrap-dropdownhover.min.js"></script>
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+    <script src="js/javascriptToTop.js"></script>
     <!-- End of Javascript
     =====================================================================--> 
 

@@ -72,6 +72,10 @@ a:hover {
   background-color: #FFFFFF;
 }
 
+.navbar-inverse .navbar-toggle .icon-bar{
+  background-color: #22B2E7;
+}
+
 /* Transcription - Translation Style */
 
 .hidden {
@@ -121,7 +125,7 @@ a:hover {
 .highlight{
 	background-color: #000000;
 	opacity: 0.7;
-  width: 35%;
+  width: 100%;
   padding: 3%;	
   height: 300px;
 }
@@ -154,19 +158,20 @@ a:hover {
 
 #heading{
   color: #22B2E7;
-  font-size: -webkit-xxx-large;
+  font-size: 2em;
   padding: 3%;
   letter-spacing: 0.4em;
+  margin-top: 15%;
 }
 
 .subheading{
-  color: #16627C;
+  color: #FFFFFF;
   margin: 2%; 
   letter-spacing: 0.2em;
 }
 
 .memberNames{
-  color: #16627C;
+  color: #22B2E7;
 }
 
 .paragraphs{
@@ -177,7 +182,7 @@ a:hover {
 }
 
 .mainPoint{
-  color: #16627C;
+  color: #22B2E7;
   font-weight: bold;
   font-size: x-large;
 }
@@ -213,7 +218,11 @@ a:hover {
 }
 
 .sponsorLogos{
-  width: 100%;
+  width: 20%;
+}
+
+.sponsorMainLogos{
+  width: 10%;
 }
 
 .memories{
@@ -225,7 +234,7 @@ a:hover {
 }
 
 .blueNote{
-  background-color: #22B2E7;
+  background-color: #16627C;
 }
 
 /* Images in insilico Analysis */
@@ -239,13 +248,20 @@ a:hover {
 /* end */
 
 .circuitDiagrams{
-
+  width: 50%;
 }
 
 .flowchartDiagram{
-
+  width: 50%;
 }
 
+.graphDiagrams{
+  width: 50%;
+}
+
+.tableDiagrams{
+  width: 50%;
+}
 
 /*
 
@@ -381,4 +397,64 @@ a:hover {
 
 .SeaBlueBubble {
   background-color: #16627C;
+}
+
+/* Go to Top of Page */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 25px;
+}
+
+#myBtn:hover {
+  background-color: transparent;
+}
+
+.arrowHead {
+  color: #16627C; 
+}
+
+.arrowHead:hover {
+  color: #22B2E7; 
+}
+
+.miniNav {
+  font-size: large;
+  letter-spacing: 0.1em;
+}
+
+.miniNavSeperator{
+  color: #22B2E7; 
+}
+
+
+@media (min-width: 600px){
+
+.highlight{
+  width: 35%;
+}
+
+#heading{
+  color: #22B2E7;
+  font-size: 4em;
+  padding: 3%;
+  letter-spacing: 0.4em;
+  margin-top: 6%;  
+}
+.sponsorLogos{
+  width: 100%;
+}
+
+.sponsorMainLogos{
+  width: 50%;
+}
 }

@@ -96,6 +96,13 @@
 
 
     <div class="container">
+
+        <!-- Go to the Top of the Page Button
+        =====================================================================--> 
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-circle-o-up fa-3x arrowHead" aria-hidden="true"></i></button>
+        <!-- End of Go to the Top of the Page Button
+        =====================================================================-->
+
         <!-- Page Heading
         =====================================================================-->         
         <section class="sectionSpacing" id="biosafety">
@@ -104,6 +111,13 @@
                     <h1 id="heading">BIOSAFETY</h1>    
                 </div>
             </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                        <a class="miniNav" href="#introL">&nbsp;Introduction </a><i class="fa fa-circle miniNavSeperator" aria-hidden="true"></i>
+                        <a class="miniNav" href="#practicesL">&nbsp;Biosafety Practices in SVCE </a>                 
+                </div>
+            </div> 
+
         </section>        
         <!-- End of Page Heading
         =====================================================================-->
@@ -111,7 +125,7 @@
         <!-- Biosafety Introduction
         =====================================================================-->    
         <section class="sectionSpacing" id="biosafetyIntroduction">
-            <div class="row blueNote">
+            <div id="introL" class="row blueNote">
                 <div class="col-sm-12 col-md-12 col-lg-12 text-center">
                     <h2 class="subheading">Introduction</h2>    
                 </div>
@@ -132,7 +146,7 @@
         <!-- Biosafety Practices at SVCE
         =====================================================================-->    
         <section class="sectionSpacing" id="biosafetyPractices">
-            <div class="row blueNote">
+            <div id="practicesL" class="row blueNote">
                 <div class="col-sm-12 col-md-12 col-lg-12 text-center">
                     <h2 class="subheading">Biosafety Practices at SVCE</h2>    
                 </div>
@@ -330,6 +344,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrap-dropdownhover.min.js"></script>
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+    <script src="js/javascriptToTop.js"></script>
     <!-- End of Javascript
     =====================================================================--> 
 
