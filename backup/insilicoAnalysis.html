@@ -17,7 +17,7 @@
     <!-- Stylesheets
     =====================================================================-->       
     <link rel="icon" type="image/png" href="images/Favicon.png">    
-    <title>RNA pH Meter - Regulogem iGEM SVCE 2017</title>
+    <title>Insilico Analysis - Regulogem iGEM SVCE 2017</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">    
     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
@@ -52,10 +52,10 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Project <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li><a href="#">Overview </a></li>
-                            <li><a href="Adaptor.html">Adaptor </a></li>
-                            <li><a href="RNAphMeter.html">RNA pHmeter </a></li>
+                            <li><a href="#">Adaptor </a></li>
+                            <li><a href="#">RNA pHmeter </a></li>
                             <li class="divider"></li>
-                            <li><a href="safety.html">Safety </a></li>
+                            <li><a href="#">Safety </a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
@@ -64,10 +64,10 @@
                             <li><a href="#">Basic Parts </a></li>
                             <li><a href="#">Composite Parts </a></li>
                             <li><a href="#">Wetlab </a></li>
-                            <li><a href="insilicoAnalysis.html">Insilico Analysis</a></li>
-                            <li><a href="protocols.html">Protocols </a></li>
-                            <li><a href="interlab.html">Interlab </a></li>
-                            <li><a href="notebook.html">Notebook </a></li>
+                            <li><a href="#">Insilico Analysis</a></li>
+                            <li><a href="#">Protocols </a></li>
+                            <li><a href="#">Interlab </a></li>
+                            <li><a href="#">Notebook </a></li>
                         </ul>
                     </li>
                     <li><a href="#">Software </a></li>
@@ -75,16 +75,16 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Human Practices <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="HpSilver.html">HP Silver </a></li>
+                            <li><a href="#">HP Silver </a></li>
                             <li><a href="#">HP Gold</a></li>
-                            <li><a href="collaborations.html">Collaboration </a></li>
+                            <li><a href="#">Collaboration </a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Team <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="teamMembers.html">Members </a></li>
-                            <li><a href="attributions.html">Attributions </a></li>
+                            <li><a href="#">Members </a></li>
+                            <li><a href="#">Attributions </a></li>
                         </ul>
                     </li>                                        
                 </ul>
@@ -92,9 +92,6 @@
         </div><!-- /.container-fluid -->
     </nav>
     <!-- End of Navigation Bar
-    =====================================================================-->  
-  
-    <!-- Landing Background
     =====================================================================-->  
   
     <div class="container">
@@ -107,25 +104,24 @@
 
         <!-- Page Heading
         =====================================================================-->         
-        <section class="sectionSpacing" id="RNAphMeter">
+        <section class="sectionSpacing" id="attributions">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-                    <h1 id="heading">RNA PH METER</h1>    
+                    <h1 id="heading">Insilico Analysis</h1>    
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12 text-center">
                         <a class="miniNav" href="#descriptionL">&nbsp;Description </a><i class="fa fa-circle miniNavSeperator" aria-hidden="true"></i>
-                        <a class="miniNav" href="#circuitL">&nbsp;Circuit </a><i class="fa fa-circle miniNavSeperator" aria-hidden="true"></i>
-                        <a class="miniNav" href="#flowchartL">&nbsp;Flowchart </a>                          
+                        <a class="miniNav" href="#optimizationL">&nbsp;Optimisation </a><i class="fa fa-circle miniNavSeperator" aria-hidden="true"></i>
+                        <a class="miniNav" href="#rnaL">&nbsp;RNA pH Meter </a>         
                 </div>
-            </div> 
-
+            </div>             
         </section>        
         <!-- End of Page Heading
         =====================================================================-->
 
-        <!-- Description About RNA pH Meter
+        <!-- Description About Insilico Analysis
         =====================================================================-->    
         <section class="sectionSpacing" id="description">
             <div id="descriptionL" class="row blueNote">
@@ -136,49 +132,67 @@
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12">
                     <p class="paragraphs">
-                        The RNA pH-meter is a new part that initiates translation only at alkaline conditions. It was first observed in Escherichia coli, as the 5’UTR preceding the alx locus, termed the SraF gene, having two stable RNA structures. The first structure, the N structure, is formed at neutral pH and the second structure termed the H structure is formed at higher pH.  In the N structure, multiple stem loops occlude the Shine Dalgarno sequence thereby inhibiting translation whereas in the H structure the Shine Dalgarno sequence is exposed to the incoming ribosome thereby facilitating translation. Hence, this way, the SraF 5’UTR can be made to function as a pH sensitive translational riboswitch which induces translation in alkaline conditions. Therefore placing a protein coding sequence downstream of the 5’UTR leads to pH sensitive translation of said protein.
+                        Insilico analysis of any system is essential as it provides a better scientific understanding and serves as a guide for future physical experimentation. We have carried out insilico studies by using an online bioinformatics tool called RNA VIENNA FOLD to predict the secondary structures of the new parts that we are adding to the registry this year. This helped us to anticipate if our system would work as expected or not.
                     </p>                      
                 </div>                               
             </div>                        
         </section>
-        <!-- End of Description About RNA pH Meter
+        <!-- End of Description About Insilico Analysis
         =====================================================================-->
 
-        <!-- Circuit Diagram of RNA pH Meter
+        <!-- Optimization of the ROSE RNA thermometer for B.subtilis
         =====================================================================-->    
-        <section class="sectionSpacing" id="circuitDiagram">
-            <div id="circuitL" class="row blueNote">
+        <section class="sectionSpacing" id="optimization">
+            <div id="optimizationL" class="row blueNote">
                 <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-                    <h2 class="subheading">Circuit Diagram</h2>    
+                    <h2 class="subheading">Optimization of the ROSE RNA thermometer for B.subtilis</h2>    
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-                    <img class="circuitDiagrams" src="images/JohnSnow3.jpg">             
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <p class="paragraphs">
+                        The functionality of the RNA thermometer is based on the intrinsic property of its structure. Hence just by altering the Shine Dalgarno sequence, it can be made functional across a variety of prokaryotic hosts. Since B.subtilis is the second most used chassis organism in iGEM, RNA Thermometer optimized for this bacterium will be a valuable addition to the Registry. The secondary structure of the RNA thermometer optimized for B.subtilis was obtained just by pasting the new sequence with the altered SD sequence in RNA VIENNA FOLD. This was very similar to the one optimized for E.coli and both had nearly equal thermodynamic free energies as shown in the figures below. 
+                    </p>                      
                 </div>                               
-            </div>                        
+            </div> 
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 text-center">
+                    <img class="optimisationPicture" src="images/IronThrone.jpg">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 text-center">
+                    <img class="optimisationPicture" src="images/IronThrone.jpg">
+                </div>                
+            </div>                                       
         </section>
-        <!-- End of Circuit Diagram of RNA pH Meter
-        =====================================================================-->  
+        <!-- End of Optimization of the ROSE RNA thermometer for B.subtilis
+        =====================================================================--> 
 
-        <!-- Flowchart for RNA pH Meter
+        <!-- RNA pHmeter
         =====================================================================-->    
-        <section class="sectionSpacing" id="flowchart">
-            <div id="flowchartL" class="row blueNote">
+        <section class="sectionSpacing" id="RNAthermometer">
+            <div id="rnaL" class="row blueNote">
                 <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-                    <h2 class="subheading">Flowchart</h2>    
+                    <h2 class="subheading">RNA pHmeter</h2>    
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-                    <img class="flowchartDiagram" src="images/JohnSnow3.jpg">             
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <p class="paragraphs">
+                        Insilico analysis was done to obtain the 2D structure of this part, the sequence of which has been obtained from GENBANK. To make the pHmeter adaptable and easy to use we decided to replace its natural scar site with the BioBrick scar site. The modification to replace the scar site was carried out such that the secondary structure and Gibbs free energy change remained similar to that of the natural one as shown in the figure below. Both the variants of the RNA pHmeter i.e the wild type riboswitch with the natural scar site and a modified one with a replaced BioBrick scar site were then tested and their performances were compared. 
+                    </p>                      
                 </div>                               
-            </div>                        
+            </div> 
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 text-center">
+                    <img class="RNAPicture" src="images/IronThrone.jpg">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 text-center">
+                    <img class="RNAPicture" src="images/IronThrone.jpg">
+                </div>                
+            </div>                                       
         </section>
-        <!-- End of Flowchart for RNA pH Meter
-        =====================================================================-->                
-
-
+        <!-- End of RNA pHmeter
+        =====================================================================-->                               
     </div>
 
     <!-- Spnosors and Contact Information
