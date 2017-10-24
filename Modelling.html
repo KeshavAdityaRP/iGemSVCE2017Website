@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Website Meta
+    =====================================================================-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- The meta name="viewport" tag is particularly important for responsive design – it ensures that your website has a 1:1 ratio with the viewport (screen size).
+    =====================================================================-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="iGEM, Regulogem, SVCE, Sri Venkateswara College of Engineering">
+    <meta name="description" content="Riboswitches">
+    <meta name="author" content=" Developer and Designer : Keshav Aditya RP, Laksh Kanter">
+    <!-- End of Website Meta
+    =====================================================================-->
+
+    <!-- Stylesheets
+    =====================================================================--> 
+    <title>Modelling - Regulogem iGEM SVCE 2017</title>      
+    <link rel="icon" type="image/png" href="images/Favicon.png">    
+    <link href="css/bootstrap.css" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/bootstrap-dropdownhover.css" rel="stylesheet">    
+    <link href="css/style.css" rel="stylesheet">
+    <!-- End of Stylesheets
+    =====================================================================--> 
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!-- Navigation Bar
+    =====================================================================-->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-animations">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="home.html">Regulogem</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInUp"> 
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Project <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="home.html">Overview </a></li>
+                            <li><a href="Adaptor.html">Adaptor </a></li>
+                            <li><a href="RNAphMeter.html">RNA pHmeter </a></li>
+                            <li><a href="safety.html">Safety </a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Results <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="Parts.html">Parts </a></li>
+                            <li><a href="wetLab.html">Wetlab </a></li>
+                            <li><a href="insilicoAnalysis.html">Insilico Analysis</a></li>
+                            <li><a href="protocols.html">Protocols </a></li>
+                            <li><a href="interlab.html">Interlab </a></li>
+                            <li><a href="notebook.html">Notebook </a></li>
+                        </ul>
+                    </li>
+                    <li><a href="software.html">Software </a></li>
+                    <li><a href="Modelling.html">Modelling </a></li> 
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Human Practices <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="HpSilver.html">HP Silver </a></li>
+                            <li><a href="HpGold.html">HP Gold</a></li>
+                            <li><a href="collaborations.html">Collaboration </a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Team <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="teamMembers.html">Members </a></li>
+                            <li><a href="attributions.html">Attributions </a></li>
+                        </ul>
+                    </li>                                        
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <!-- End of Navigation Bar
+    =====================================================================-->  
+ 
+    
+    <!-- Landing Background
+    =====================================================================-->  
+    
+    <div class="container">
+
+        <!-- Go to the Top of the Page Button
+        =====================================================================--> 
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-circle-o-up fa-3x arrowHead" aria-hidden="true"></i></button>
+        <!-- End of Go to the Top of the Page Button
+        =====================================================================-->
+
+        <!-- Page Heading
+        =====================================================================-->         
+        <section class="sectionSpacing" id="Modelling">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                    <h1 id="heading"> MODELLING </h1>    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                    <a class="miniNav" href="#OverviewL">&nbsp; Overview </a><i class="fa fa-circle miniNavSeperator" aria-hidden="true"></i>
+                    <a class="miniNav" href="#ReactionsL">&nbsp; Reactions </a><i class="fa fa-circle miniNavSeperator" aria-hidden="true"></i>
+                    <a class="miniNav" href="#ResultsL">&nbsp; Results </a> <i class="fa fa-circle miniNavSeperator" aria-hidden="true"></i>
+                    <a class="miniNav" href="#ParametersL">&nbsp; Parameters </a>
+                </div>
+            </div>
+        </section>           
+            <!-- End of Page Heading
+            =====================================================================-->
+        <!-- Descrption about Modelling Overview
+        =====================================================================-->
+        <section class="sectionSpacing" id="OverView">
+            <div id="OverviewL" class="row blueNote">
+                <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                    <h2 class="subheading"> Overview </h2>
+                </div>
+            </div>    
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <p class="paragraphs">
+                        The highlight of SVCE_Chennai’s ReguloGEM project is the adaptor that converts translational regulation to transcriptional regulation. Our model of the adaptor here is used to determine the amount of protein produced with respect to if the riboswitch present upstream is in its active or inactive form.<br>
+                        For this, we have used the SimBiology desktop, which is an applet of MatLab, to model both the active as well as inactive states of our adaptor with the constitutive RBS. For comparison purposes, we have also modeled normal GFP production, to compare and contrast the two cases of GFP production, with and without the adaptor. In addition, we also performed sensitivity analysis and parameter scans to help us gain perspective on our experimental results.<br> 
+                        The reason that we’ve decided to model our adaptor is that since it is a fairly new concept, we wanted to run simulations that would help the team understand our project more, while simultaneously helping us to predict the behavior of the adaptor which would help us in our actual experiments.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- End of Modelling Overview
+        ============================================================-->
+
+        <!-- Description about Reactions
+        ==============================================================-->
+
+        <section class="sectionSpacing" id="Reactions">
+            <div id="ReactionsL" class="row blueNote">
+                <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                    <h2 class="subheading"> Reactions </h2>
+                </div>
+            </div>    
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <p class="paragraphs">
+                       We would like to acknowledge Team Lund hereas they had been kind enough to help us form the following reactions and differential equations.
+                       The following is a diagram of the adaptor circuit:
+                   </p>
+               </div>
+           </div>
+           <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 text-center"">
+                <img class="circuitDiagrams" src="images/IronThrone.jpg">
+            </div>               
+        </div>
+            <!-- subdivision 1
+            =====================================================-->
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <p class="paragraphs">
+                      We assume two conformations of the constitutive riboswitch corresponding to its active and inactive form, ON and OFF and their mRNA transcripts are given as M <sub>a </sub>and M <sub> b </sub>, respectively.
+                  </p>
+              </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+            <h4 class="subheading"> 1. Transcription of the mRNA transcripts M <sub>a </sub> and M <sub>b </sub>: </h4>
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 text-center"">
+                <img class="rxndiagrams" src="images/IronThrone.jpg"> 
+            </div>               
+        </div>
+        
+        
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <p class="paragraphs">
+                 The above differential equation shows the rate of change of promoter concentration with time, which is zero, since the promoter concentration is constant.
+             </p>
+         </div>
+     </div>
+     <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12 text-center"">
+         <img class="rxndiagrams" src="images/IronThrone.jpg"> 
+     </div>               
+ </div>
+ 
+ <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-12">
+        <p class="paragraphs">
+            The next two DEs show the rate of change of the mRNA transcripts MA and MB of the ON and OFF states, whose degradation is represented by the degradation terms given in the equation.
+        </p>
+    </div>
+</div>
+            <!-- end of subdivision 1
+            ======================================================-->
+
+               <!--subdivision 2
+               ====================================================-->
+
+               <div class="col-sm-12 col-md-12 col-lg-12 text-left">
+                <h4 class="subheading"> 2. Formation of TNAc peptide. </h4>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 text-center"">
+                    <img class="rxndiagrams" src="images/IronThrone.jpg"> 
+                </div>               
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <p class="paragraphs">
+
+                        The above DE corresponds to the rate of change of TNAc concentration over time. A degradation term has been added to depict the degradation of TNAc peptide. The translated polypeptide T will be considered as a transcription factor using the following logical basis. mRNA Elongation will occur if TnaC acts upon the ribosome by stalling it over the terminator site (leakage is disregarded), thus preventing rho-dependent termination. Conceptually, this corresponds to the positive action of a molecule on the initiation of transcription. This resembles the action of an activator (positive transcription factor) on an enhancer sequence. Ergo, the TnaC is considered a transcription factor and modeled as such.
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                    <img class="rxndiagrams" src="images/IronThrone.jpg">
+                </div>               
+            </div>
+            
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <p class="paragraphs">
+                        The above two equations show the rate of change of the RNA-polymerase with time, both in its bound and unbound forms.
+                    </p>
+                </div>
+            </div>
+
+        <!-- end of subdivision 2
+        ==========================================================-->
+
+        <!-- subdivision 3
+        =========================================================-->
+        <div class="col-sm-12 col-md-12 col-lg-12 text-left">
+            <h4 class="subheading"> 3. Formation of the protein GFP. </h4>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+             <img class="rxndiagrams" src="images/IronThrone.jpg"> 
+         </div>               
+     </div>
+
+
+     <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            <p class="paragraphs">
+
+                The above two DEs show the rate of change of concentration of the mRNA and the peptide forms of the protein GFP.
+                The below reactions correspond to the degradation of the above species:
+            </p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+           <img class="rxndiagrams" src="images/IronThrone.jpg">
+       </div>               
+   </div>
+</section>
+
+            <!-- end of subdivision 3
+            =====================================================-->
+
+            <!--End of Reactions
+            =====================================================-->
+
+            <!-- Description about Results
+            =====================================================-->
+
+            <section class="sectionSpacing" id="Results">
+                <div id="ResultsL" class="row blueNote">
+                    <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                        <h2 class="subheading"> Results </h2>
+                    </div>
+                </div>    
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <p class="paragraphs">
+                            The below is the model of the adaptor containing the constitutive RBS, designed in the SimBiology applet in MATLAB,
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                        <img class="resultsdia" src="images/JohnSnow3.jpg">             
+                    </div>                               
+                </div>                        
+                
+
+                <div class="col-sm-12 col-md-12 col-lg-12 text-left">
+                    <h4 class="subheading"> Active State </h4>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <p class="paragraphs">
+                            The Stop time was set to 36,000 seconds (10 HOURS) and the following plot was generated:
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                        <img class="resultsdia" src="images/JohnSnow3.jpg">             
+                    </div>                               
+                </div>                        
+                
+
+                <div class="col-sm-12 col-md-12 col-lg-12 text-left">
+                    <h4 class="subheading"> Inactive State </h4>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <p class="paragraphs">
+                            Since the constitutive RBS does not have an inactive conformation, GFP is produced constitutively irrespective of the conditions. However, considering any other riboswitch in its stead, the plot may look like this:
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                        <img class="resultsdia" src="images/JohnSnow3.jpg">             
+                    </div>                               
+                </div> 
+
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <p class="paragraphs">
+                           Clearly there is no GFP production when the adaptor is placed under the inactive conformation of the riboswitch.
+                       </p>
+                   </div>
+               </div> 
+               
+               <div class="col-sm-12 col-md-12 col-lg-12 text-left">
+                <h4 class="subheading"> GFP PRODUCTION WITHOUT AN ADAPTOR:   </h4>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <p class="paragraphs">
+                       Here we have designed a standard genetic model, consisting of a promoter, an RBS and the GFP gene. On simulating this model, the plot obtained looked like this:
+                   </p>
+               </div>
+           </div>
+           <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                <img class="resultsdia" src="images/JohnSnow3.jpg">             
+            </div>                               
+        </div> 
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <p class="paragraphs">
+                    This was essential to our further understanding of the adaptor. The comparison between the two cases clearly showed a difference in their production; in the model without adaptor, GFP production started almost instantaneously, i.e., from time t=0. But in the model containing the adaptor, GFP production starts after a while. From this, we were able to infer that the adaptor has more control and does not permit much basal transcription.
+                    Furthermore, it was also inferred that by replacing the constitutive RBS present upstream of the adaptor with a translational riboswitch, we can gain even more transcriptional control.
+                    From the above model, the following conclusions can be made:
+                    -  The team got to understand the workings of the adaptor with the help of the model
+                    -  The adaptor reduces the level of basal expression
+                    -   By replacing the constitutive RBS of the adaptor with basically any other riboswitch, we can hold transcriptional control.
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+         <!-- End of Results
+         ==========================================================-->
+
+         <!-- Parameters 
+         ==========================================================-->
+         
+         <section class="sectionSpacing" id="Parameters">
+            <div id="ParametersL" class="row blueNote">
+                <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                    <h2 class="subheading"> Parameters </h2>
+                </div>
+            </div> 
+
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                    <img class="Parametersdia" src="images/JohnSnow3.jpg">             
+                </div>                               
+            </div> 
+
+            <div class="col-sm-12 col-md-12 col-lg-12 text-left">
+                <h2 class="subheading"> References: </h2>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <p class="paragraphs">
+                        1.Chang, C. L.,Lei Qi, Lucks J.B., Segall-Shapiro T.H., Wang, D.,Mutalik V.K.&Arkin, A.P.An adaptorfrom translational to transcriptional control enables predictable assembly of complex regulation. Nat.Methods9,1088–1094(2012). </p>
+
+                        <p class="paragraphs">  2. <a href="http://2009.igem.org/Team:UAB-Barcelona/Modeling2"> Team:UAB-Barcelona (2009) </a> </p>
+                        <p class="paragraphs"> 3.Beisel CL, Smolke CD. Design Principles for Riboswitch Function. Arkin AP, ed. PLoS Computational Biology. 2009;5(4):e1000363. doi:10.1371/journal.pcbi.1000363. </p>
+                        <p class="paragraphs"> 4. Sanchez A, Garcia HG, Jones D, Phillips R, Kondev J. Effect of Promoter Architecture on the Cell-to-Cell Variability in Gene Expression. Wasserman WW, ed. PLoS Computational Biology. 2011;7(3):e1001100. doi:10.1371/journal.pcbi.1001100. </p>
+
+                        
+                    </div>
+                </div>
+            </section>
+        <!--End of Parameters
+        ============================================================-->
+    </div>
+
+     <!-- Spnosors and Contact Information
+     =====================================================================-->
+     <section id="sponsors">
+        <div class="row">       
+            <div class="col-sm-12 col-md-2 col-lg-2 text-center">
+                <a href="#">
+                    <i class="fa fa-facebook fa-3x contactIcons" aria-hidden="true"></i>
+                    <br>
+                    facebook
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-2 col-lg-2 text-center">
+                <a href="#">
+                    <i class="fa fa-twitter fa-3x contactIcons" aria-hidden="true"></i>
+                    <br>
+                    twitter
+                </a>                
+            </div>
+            <div class="col-sm-12 col-md-2 col-lg-2 text-center">
+                <a href="#">
+                    <i class="fa fa-github-alt fa-3x contactIcons" aria-hidden="true"></i>
+                    <br>
+                    github
+                </a>                
+            </div>
+            <div class="col-sm-12 col-md-2 col-lg-2 text-center">
+                <i class="fa fa-envelope fa-3x contactIcons" aria-hidden="true"></i>
+                <p class="emailId"> igemsvce@gmail.com </p>
+            </div>
+            <div class="col-sm-12 col-md-2 col-lg-2 col-md-offset-1 col-lg-offset-1  text-center">
+                <p class="auth">Designed by<br>2017 iGEM Team<br>SVCE_CHENNAI</p>
+            </div>             
+            <div class="col-sm-12 col-md-1 col-lg-1 text-center">
+                <img class="sponsorLogos" src="images/sponsorLogos/SSMM.png">   
+            </div>                                                                                
+        </div>        
+        <div class="row">
+            <div class="col-sm-12 col-md-1 col-lg-1 text-center">
+                <img class="sponsorLogos" src="images/sponsorLogos/ABI.png">   
+            </div>
+            <div class="col-sm-12 col-md-1 col-lg-1 text-center">
+                <img class="sponsorLogos" src="images/sponsorLogos/CFMG.png">   
+            </div>
+            <div class="col-sm-12 col-md-1 col-lg-1 text-center">
+                <img class="sponsorLogos" src="images/sponsorLogos/Eppendorf.png">   
+            </div>
+            <div class="col-sm-12 col-md-1 col-lg-1 text-center">
+                <img class="sponsorLogos" src="images/sponsorLogos/GenScript.png">   
+            </div> 
+            <div class="col-sm-12 col-md-1 col-lg-1 text-center">
+                <img class="sponsorLogos" src="images/sponsorLogos/IDT.png">   
+            </div> 
+            <div class="col-sm-12 col-md-1 col-lg-1 text-center">
+                <img class="sponsorLogos" src="images/sponsorLogos/Levim.png">   
+            </div>
+            <div class="col-sm-12 col-md-1 col-lg-1 text-center">
+                <img class="sponsorLogos" src="images/sponsorLogos/Lifecell.png">   
+            </div>
+            <div class="col-sm-12 col-md-1 col-lg-1 text-center">
+                <img class="sponsorLogos" src="images/sponsorLogos/MathWorks.png">   
+            </div>
+            <div class="col-sm-12 col-md-1 col-lg-1 text-center">
+                <img class="sponsorLogos" src="images/sponsorLogos/NEB.png">   
+            </div>
+            <div class="col-sm-12 col-md-1 col-lg-1 text-center">
+                <img class="sponsorLogos" src="images/sponsorLogos/SSMM.png">   
+            </div> 
+            <div class="col-sm-12 col-md-1 col-lg-1 text-center">
+                <img class="sponsorLogos" src="images/sponsorLogos/Saksin.png">   
+            </div> 
+            <div class="col-sm-12 col-md-1 col-lg-1 text-center">
+                <img class="sponsorLogos" src="images/sponsorLogos/snapgene.png">   
+            </div>                                                                        
+        </div>                
+
+    </section>
+    <!-- End of Spnosors and Contact Information
+    =====================================================================-->
+
+
+    <!-- Javascript
+    =====================================================================-->  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap-dropdownhover.js"></script>   
+    <script src="js/javascriptToTop.js"></script>
+    <!-- End of Javascript
+    =====================================================================-->  
+
+</body>

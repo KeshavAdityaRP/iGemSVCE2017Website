@@ -15,16 +15,13 @@
     =====================================================================-->
 
     <!-- Stylesheets
-    =====================================================================-->       
+    =====================================================================--> 
+    <title>Home - Regulogem iGEM SVCE 2017</title>      
     <link rel="icon" type="image/png" href="images/Favicon.png">    
-    <title>Home - Regulogem iGEM SVCE 2017</title>
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">    
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
-    <!-- Bootstrap Dropdown Hover CSS -->
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-    <link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/bootstrap-dropdownhover.min.css" rel="stylesheet">    
+    <link href="css/bootstrap.css" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/bootstrap-dropdownhover.css" rel="stylesheet">    
     <link href="css/style.css" rel="stylesheet">
     <!-- End of Stylesheets
     =====================================================================--> 
@@ -55,29 +52,27 @@
                             <li><a href="home.html#overview">Overview </a></li>
                             <li><a href="Adaptor.html">Adaptor </a></li>
                             <li><a href="RNAphMeter.html">RNA pHmeter </a></li>
-                            <li class="divider"></li>
                             <li><a href="safety.html">Safety </a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Results <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Basic Parts </a></li>
-                            <li><a href="#">Composite Parts </a></li>
-                            <li><a href="#">Wetlab </a></li>
+                            <li><a href="Parts.html">Parts </a></li>
+                            <li><a href="wetLab.html">Wetlab </a></li>
                             <li><a href="insilicoAnalysis.html">Insilico Analysis</a></li>
                             <li><a href="protocols.html">Protocols </a></li>
                             <li><a href="interlab.html">Interlab </a></li>
                             <li><a href="notebook.html">Notebook </a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Software </a></li>
-                    <li><a href="#">Modelling </a></li> 
+                    <li><a href="software.html">Software </a></li>
+                    <li><a href="Modelling.html">Modelling </a></li> 
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Human Practices <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li><a href="HpSilver.html">HP Silver </a></li>
-                            <li><a href="#">HP Gold</a></li>
+                            <li><a href="HpGold.html">HP Gold</a></li>
                             <li><a href="collaborations.html">Collaboration </a></li>
                         </ul>
                     </li>
@@ -119,15 +114,62 @@
         =====================================================================-->
 
         <section class="sectionSpacing" id="overview">
-            <div class="row">
+            <div id="overviewL" class="row blueNote">
                 <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-                    <h1 id="heading">REGULOGEM</h1>    
+                    <h2 class="subheading">Overview</h2>    
                 </div>
             </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 text-center"> 
+                    <p class="paragraphs">
+                        Synthetic biologists over the last couple of decades have primarily used two types of regulators for gene expression: Transcriptional regulators and Translational regulators. While transcriptional regulators are easily composable and are capable of regulating multiple genes simultaneously that are part of complex genetic circuits, they are extremely difficult to engineer because of poorly defined kinetic parameters involved in the binding of RNA polymerase. On the other hand translational regulators such as riboswitches can be engineered de novo using thermodynamic properties and structural characteristics but are constrained to act on single genes because of the distributive property of riboswitches.
+                    </p>                      
+                </div>                                               
+            </div>             
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 text-center"> 
+                    <p class="paragraphs">
+                        Hence the need for an ideal regulator of genes is found wanting, by ideal it must a regulator that is easy to engineer and at the same time be composable and can act on multiple genes at the same time. In other words it must have the best properties of both transcriptional and translational regulators while leaving out their cons.
+                    </p>                      
+                </div> 
+                <div class="col-sm-12 col-md-6 col-lg-6 text-center"> 
+                    <p class="paragraphs">
+                        Is such a regulator even possible? Because more often than not,ideal cases are restricted to text books. Well, not in this case.  SVCE CHENNAI’s ReguloGEM is here to provide one such regulator. A regulator that is capable of converting the translational regulatory property of riboswitches into transcriptional regulators.  Regulator that is easily composable, regulate complex genetic circuits and at the same time be easily engineered.
+                    </p>                    
+                </div>                                               
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 text-center"> 
+                    <p class="paragraphs">
+                        We call this part the “Adaptor”, the adaptor consists of a small portion of the tryptophanase(tna) operon. By linking a riboswitch that regulates through translation upstream of the adaptor , the adaptor serves as a platform for the riboswitch to regulate through transcription. <a href="Adaptor.html">Adaptor</a>
+                    </p>                      
+                </div> 
+                <div class="col-sm-12 col-md-6 col-lg-6 text-center"> 
+                    <p class="paragraphs">
+                        To test out the robustness of the adaptor, we used two riboswitches: an RNA thermometer and a RNA pH meter(Link to pH riboswitch)(New part). Both these parts regulate translation in a manner that is sensitive to temperature and pH. We characterized the conversion of their translational regulatory property to transcriptional using the adaptor.
+                    </p>                    
+                </div>                                               
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 text-center"> 
+                    <p class="paragraphs">
+                        Additionally, to set an example of how easy it is to engineer riboswitches, we engineered the RNA thermometer in a manner that it was compatible with Bacillus subtilis based on rules governing riboswitch folding. We replaced Escherichia colis consensus shine-dalgarno sequence with Bacillus subtilis’.
+                    </p>                      
+                </div>                                               
+            </div> 
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 text-center"> 
+                    <p class="paragraphs">
+                        We’ve also built software that adopts machine learning to data in the registry. We built a promoter strength predictor based by training the model on the data available from the registry of standard biological parts. We’ve also built a riboswitch classifier using a neural network and hidden markov model.
+                    </p>                      
+                </div>                                               
+            </div>                                                  
         </section>
-    </div>
+    
     <!-- End of Abstract
-    =====================================================================-->
+    =====================================================================-->  
+    
+    </div>
 
     <!-- Spnosors and Contact Information
     =====================================================================-->
@@ -214,12 +256,9 @@
     <!-- Javascript
     =====================================================================-->  
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.2/umd/popper.min.js"></script>-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/bootstrap-dropdownhover.min.js"></script>
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap-dropdownhover.js"></script>   
     <script src="js/javascript.js"></script>
     <script src="js/javascriptToTop.js"></script>
     <!-- End of Javascript

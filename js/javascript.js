@@ -6,12 +6,12 @@ consoleText(
 	'text',
 	[
 	'#22B2E7',
-	' #16627C'
+	'#16627C'
 	]
 	);
 
 function consoleText(words, id, colors) {
-  if (colors === undefined) colors = ['#fff'];
+  if (colors === undefined) colors = ['#ffffff'];
   var visible = true;
   var con = document.getElementById('console');
   var letterCount = 1;

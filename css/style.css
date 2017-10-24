@@ -1,5 +1,7 @@
 /* HTML TAGS */
 
+
+
 body {
     position: relative; 
     font-family: "Lato", sans-serif;
@@ -9,6 +11,22 @@ body {
 a{
   color: #16627C;
   text-decoration: none;  
+}
+
+ul{
+  list-style-type: none;
+}
+
+ul .points:before {
+  content: '';
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  background-size: 10px;
+  background-image: url('../images/Point.png');
+  background-repeat: no-repeat;
+  margin-right: 5px;
+
 }
 
 .links{
@@ -229,6 +247,26 @@ a:hover {
 
 .memories{
   width: 35%;
+}
+
+.bioparkPics{
+  width: 100%;
+}
+
+.schoolPics{
+  width: 100%;
+}
+
+.omicsPics{
+  width: 100%;
+}
+
+.industryPics{
+  width: 100%;
+}
+
+.meetUpPics{
+  width: 100%;
 }
 
 .doodle{
